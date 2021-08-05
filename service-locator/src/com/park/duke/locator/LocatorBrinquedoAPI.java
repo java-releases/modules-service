@@ -8,6 +8,7 @@ import com.park.duke.api.BrinquedoAPI;
 
 public class LocatorBrinquedoAPI {
 
+	@SuppressWarnings("exports")
 	public static List<BrinquedoAPI> findAll() {
 		List<BrinquedoAPI> brinquedos = new ArrayList<>();
 		ServiceLoader<BrinquedoAPI> loader = ServiceLoader.load(BrinquedoAPI.class);
