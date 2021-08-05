@@ -1,7 +1,11 @@
-module zoo.turismo.agencia {
+module modulo.qualquer {
 
-	requires zoo.turismo.api;
+	
 
-	provides zoo.turismo.api.Passeio with zoo.turismo.agencia.PasseioImpl;
+
+
 
 }
+
+
+
