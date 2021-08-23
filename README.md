@@ -28,7 +28,7 @@
   - É considerado parte de um serviço;
   - Diretivas:
     - `requires`: indica os módulos que o mesmo depende para executar.
-    - `exports`: indica os pacotes que serão expotados, para outro módulos poderem utilizar.
+    - `exports`: indica os pacotes que serão exportados, para outro módulos poderem utilizar.
     - `uses`: indica que um módulo usa um serviço. Declara que uma API é chamada.
     
 ### Consumer (client)
