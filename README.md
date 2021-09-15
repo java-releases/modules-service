@@ -7,13 +7,18 @@
 - Descrever os componentes de serviços incluindo diretivas;
 - Desenhar um Tipo de serviço, usando ServiceLoader, consumindo e fornecendo módulos;
 
-### Service Provider Interface:
+<hr>
+
+### Resumo
+
+> #### Service Provider Interface
   - É o fornecimento de uma interface ou uma classe abstrata;
   - É considerado parte de um serviço;
   - Diretivas:
-    - `exports`: indica os pacotes que serão expotados, para outro módulos poderem utilizar.
-  
-### Service Provider: 
+    - `exports`: indica os pacotes que serão expotados, para outro módulos poderem utilizar. 
+   <br/><br/>
+    
+> #### Service Provider 
 - É a implementação de um Provider Interface;
 - Não é considerado parte de um serviço;
 - É possível ter muitas implementações;
@@ -22,16 +27,18 @@
 - Diretivas: 
   - `requires`: indica os módulos que o mesmo depende para executar.
   - `provides`: indica que um módulo fornece uma implementação de um serviço.  
+  <br/><br/>
   
-### Service Locator:
+> #### Service Locator
   - Responsável por encontrar qualquer classe que implemente um Service Provider Interface;
   - É considerado parte de um serviço;
   - Diretivas:
     - `requires`: indica os módulos que o mesmo depende para executar.
     - `exports`: indica os pacotes que serão exportados, para outro módulos poderem utilizar.
     - `uses`: indica que um módulo usa um serviço. Declara que uma API é chamada.
-    
-### Consumer (client)
+  <br/><br/>
+  
+> #### Consumer (client)
   - É o módulo que obtém, e usa o serviço de fato;
   - Não é considerado parte de um serviço;
   - Diretivas:
