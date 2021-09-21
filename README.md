@@ -15,7 +15,7 @@
   - É o fornecimento de uma interface ou uma classe abstrata;
   - É considerado parte de um serviço;
   - Diretivas:
-    - `exports`: indica os pacotes que serão expotados, para outro módulos poderem utilizar. 
+    - `exports`: indica os pacotes que serão exportados, para outro módulos poderem utilizar. 
    <br/><br/>
     
 > #### Service Provider 
