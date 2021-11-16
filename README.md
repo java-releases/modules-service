@@ -1,5 +1,3 @@
-![](https://github.com/ocpjp-study/modules-service/blob/main/modules-service.png)
-
 ### Tópico: Serviços em uma aplicação modular
 ### Objetivos
 - Descrever os componentes de serviços incluindo diretivas;
